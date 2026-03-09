@@ -1,0 +1,59 @@
+{
+    "data": {
+        "data_dir": "/projects/memaro/mcodjo/pipeline/data/dataset1",
+        "train_instances": 57,
+        "validation_instances": 24,
+        "evaluation_instances": 15
+    },
+    "model": {
+        "params": {
+            "alpha": {
+                "initialize": 1.0,
+                "is_learnable": true
+            },
+            "beta0": {
+                "initialize": 0.1,
+                "is_learnable": true
+            },
+            "beta1": {
+                "initialize": 0.1,
+                "is_learnable": true
+            },
+            "sigma": {
+                "initialize": 0.2,
+                "is_learnable": true
+            },
+            "nb_intermediate_channels": 1,
+            "nb_iteration": 5,
+            "kernel_size": [
+                5,
+                5
+            ],
+            "taylor": {
+                "nb_iteration": 2,
+                "kernel_size": [
+                    5,
+                    5
+                ]
+            },
+            "taylor_generic": "new_taylor"
+        }
+    },
+    "train": {
+        "nb_epochs": 1000,
+        "learning_rate": 0.001,
+        "lr_unfolding": 0.001,
+        "lr_unet": 0.0001,
+        "patience": 200,
+        "training_batch_size": 32,
+        "validation_batch_size": 32,
+        "min_delta": 0.0001,
+        "w_sr": 1,
+        "w_seg": 0.5,
+        "unet_dropout": 0.3,
+        "grad_clip": 1,
+        "weight_decay": 0.01
+    },
+    "output_dir": "/projects/memaro/mcodjo/pipeline/experiments",
+    "model_dir": "/projects/memaro/mcodjo/pipeline/experiments/2026-03-09_12-19/best_model.pth"
+}
