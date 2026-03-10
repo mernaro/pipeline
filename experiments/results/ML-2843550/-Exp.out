@@ -1,0 +1,18 @@
+=== Lancement du script principal (Pipeline) ===
+
+-- ARGUMENTS DU PROGRAMME
+	| Config : /projects/memaro/mcodjo/pipeline/pipeconfig.json
+	| Action : test
+Initialisation des datasets...
+[ImageDataset] Masques charges depuis /projects/memaro/mcodjo/pipeline/data/dataset1/train/masques
+[ImageDataset] Masques charges depuis /projects/memaro/mcodjo/pipeline/data/dataset1/val/masques
+[ImageDataset] Masques charges depuis /projects/memaro/mcodjo/pipeline/data/dataset1/test/masques
+Datasets initialises : train(57), validation(24), evaluation(15).
+Chargement des modeles pour l evaluation...
+[PipeTrainer] device=cuda | w_sr=1 | w_seg=0.5
+[PipeTrainer] UNet params : 579,745
+Modeles charges depuis /projects/memaro/mcodjo/pipeline/experiments/2026-03-09_12-19/best_model.pth (device : cuda).
+Debut de l evaluation du pipeline...
+
+Fichier de metriques sauvegarde : /projects/memaro/mcodjo/pipeline/experiments/2026-03-09_14-04/metrics.csv
+=== Evaluation terminee avec succes ===
