@@ -1,0 +1,16 @@
+id,blur_size,blur_sigma,decimation,noise_value,noise_db,original_file
+0,15,15,2,316.22776601683796,25,data/dataset1/Images/0.npy
+1,5,5,2,10.0,10,data/dataset1/Images/1.npy
+2,5,5,2,100.0,20,data/dataset1/Images/1.npy
+3,5,5,2,31.622776601683793,15,data/dataset1/Images/1.npy
+4,5,5,2,10.0,10,data/dataset1/Images/0.npy
+5,10,10,2,316.22776601683796,25,data/dataset1/Images/0.npy
+6,10,10,4,100.0,20,data/dataset1/Images/1.npy
+7,15,15,4,100.0,20,data/dataset1/Images/2.npy
+8,5,5,2,31.622776601683793,15,data/dataset1/Images/3.npy
+9,10,10,2,31.622776601683793,15,data/dataset1/Images/0.npy
+10,15,15,2,10.0,10,data/dataset1/Images/2.npy
+11,5,5,2,100.0,20,data/dataset1/Images/2.npy
+12,10,10,2,316.22776601683796,25,data/dataset1/Images/1.npy
+13,15,15,4,31.622776601683793,15,data/dataset1/Images/2.npy
+14,5,5,2,316.22776601683796,25,data/dataset1/Images/2.npy
